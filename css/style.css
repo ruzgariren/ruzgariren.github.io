@@ -1,0 +1,109 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+html {
+font-size: 10px;
+}
+
+body {
+font-family: 'Lora', serif;
+font-size: 2.5rem;
+background-color: #bdbdbd;
+background-image: url(/img/background.png);
+
+}
+
+.container {
+margin-left: auto;
+margin-right: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+padding-top: 1rem;
+}
+
+nav {
+color: white;
+padding-top: 0.1rem;
+padding-bottom: 0.8rem;
+position: fixed;
+display: flex;
+top: 0;
+left: 0;
+width: 100%;
+}
+
+a {
+text-decoration: none;
+color: white;
+border-radius: 5px;
+}
+
+#button {
+float: right;
+}
+
+#title {
+color: white;
+}
+
+li {
+display: inline;
+padding-right: 1rem;
+}
+
+a:hover {
+color: black;
+background-color: white;
+}
+
+.logo {
+display: inline;
+}
+
+.active{
+font-weight: bold;
+}
+
+.hosgeldiniz {
+padding-top: 5rem;
+}
+
+.hakkimdakisim {
+padding-top: 5rem;
+}
+
+.hakkimdabaslik {
+padding-top: 105rem;
+padding-left: 45%;
+font-size: 5rem;
+}
+
+p {
+color: #eeeeee;
+}
+
+.iletisimbaslik{
+    padding-top: 65rem;
+    padding-left: 45%;
+    font-size: 5rem;
+}
+
+.hakkimdakisim p{
+    text-align: center; 
+    padding-top:15rem;
+}
+
+.section-title{
+    padding-top:4rem !important;
+    font-size: 5rem;
+}
+
+.linkler{
+    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 53rem;
+}
+
+
